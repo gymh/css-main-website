@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"node-sass": "^4.13.1"
+	},
+	"scripts": {
+		"compile": "node-sass scss/template_css.scss css/template_css.css --output-style compressed"
+	}
+}
